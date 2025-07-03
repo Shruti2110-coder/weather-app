@@ -1,0 +1,81 @@
+/* Outer Container with background */
+.weather-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff); /* light blue gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Centered weather box */
+  .weather-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Input styling */
+  input[type='text'] {
+    padding: 12px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Weather result */
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .weather-info img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Loading and error text */
+  .loading,
+  .error {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
